@@ -1,0 +1,6 @@
+_f, _f, _f, _f, _f, _f, _f, _f, _f, _f, _f, _f
+_f, Hh, Hh, Hh, Hh, Hh, Cer, Hh, Hh^Edt, Rb^Edt, Rb^Ecf, _f
+_f, Gs^Fms, Rb^Edt, Re^Edt, Cer, Cer, Cer^Kov, Cer, Cer, Rb^Edt, Gll^Fp, _f
+_f, Re^Edt, Rb^Ecf, Rb^Edt, Rb^Edt, Cer, Cer, Cer, Re^Edt, Re^Edt, Gs^Fp, _f
+_f, Hh^Fms, Gs^Fms, Re^Edt, Hh, Hh^Ecf, Hh^Edt, Hh^Ecf, Hh^Fp, Gs^Fms, Gs^Fms, _f
+_f, _f, _f, _f, _f, _f, _f, _f, _f, _f, _f, _f
