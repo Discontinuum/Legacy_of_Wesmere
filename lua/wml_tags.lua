@@ -55,30 +55,3 @@ function wesnoth.wml_actions.replace_map_section(cfg)
 	local new_map = table.concat(t, '\n')
 	wesnoth.wml_actions.replace_map { map_data = new_map, expand = true, shrink = true }
 end
-
-function wesnoth.wml_actions.unstore_left_behind_units(cfg)
-	if wml.variables["l3_store_kalenz"] ~= nil then
-		local l3_store_kalenz = wml.array_variables["l3_store_kalenz"]
-		for i,_ in ipairs(l3_store_kalenz) do
-			local var_name = "l3_store_kalenz[" .. tostring(i-1) .. "]"
-			wml_actions.unstore_unit {
-				variable = var_name,
-				x = "recall",
-				y = "recall"
-			}
-		end
-		wml.variables["l3_store_kalenz"] = nil
-	end
-	if wml.variables["l3_store_landar"] ~= nil then
-		local l3_store_landar = wml.array_variables["l3_store_landar"]
-		for i,_ in ipairs(l3_store_landar) do
-			local var_name = "l3_store_landar[" .. tostring(i-1) .. "]"
-			wml_actions.unstore_unit {
-				variable = var_name,
-				x = "recall",
-				y = "recall"
-			}
-		end
-		wml.variables["l3_store_landar"] = nil
-	end
-end
